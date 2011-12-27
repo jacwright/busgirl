@@ -1,0 +1,30 @@
+{
+	"name": "busgirl",
+	"description": "An attractive server which aids in building scalable applications.",
+	"version": "0.1.0",
+	"keywords": ["database", "datastore", "rest", "nodejs"],
+	"maintainers": [{
+		"name": "Jacob Wright",
+		"email": "jacwright@gmail.com",
+		"web": "http://jacwright.com"
+	}],
+	"contributors": [{
+		"name": "Jacob Wright",
+		"email": "jacwright@gmail.com",
+		"web": "http://jacwright.com"
+	},{
+		"name": "Rob Taylor"
+	}],
+	"dependencies": {
+		"coffee-script": "latest",
+		"express": "latest",
+		"request": "latest",
+		"cradle": "latest",
+		"mime": "latest",
+		"validator": "latest",
+		"jasmine-node": "latest"
+	},
+	"scripts": {
+		"start": "node lib/index.js"
+	}
+}
